@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class SumOfSqrs1{
+  
+  public static void main(String [] args){
+  Scanner input=new Scanner(System.in);
+  
+  int x,n,sum=0;
+  
+System.out.print("Enter the floor value: ");
+
+  x=input.nextInt();
+  
+System.out.print("Enter the max value: "); 
+
+  n=input.nextInt();
+  
+int z=Math.abs(x),k=Math.abs(n);
+
+  for(int j=z;j<=k;j++){
+      sum+=j*j;
+  }
+ System.out.print("sum is :"+ sum);
+  
+  
+  }
+
+
+
+}
